@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+.card {
+    background-color:#ffffff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgda(0, 0, 0, 0,05) ;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #f0f0f0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.gallery {
+    margin-top: 20px;
+}
+.gallery img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
